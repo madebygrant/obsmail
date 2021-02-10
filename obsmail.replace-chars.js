@@ -1,9 +1,3 @@
-/*
-function _d(char) {
-    var a = document.createElement("textarea");
-    return char.innerHTML = cahr, a.value
-}
-*/
 const obsMail = {
     _d: function(char) {
         let a = document.createElement("textarea");
