@@ -3,7 +3,7 @@ These are files that users can embed on to their websites in order to decode obs
 
 ### Embed URLs
 Hashed: https://cdn.jsdelivr.net/gh/madebygrant/obsmail@1.0/obsmail.hashed.min.js \
-Replace Characters: https://cdn.jsdelivr.net/gh/madebygrant@1.0/obsmail/obsmail.replace-chars.min.js
+Replace Characters: https://cdn.jsdelivr.net/gh/madebygrant/obsmail@1.0/obsmail.replace-chars.min.js
 
 ### Instructions
 1. Go to the [Obscure Email Generator](https://madebygrant.com/obscure-email/ "Obscure Email Generator") website.
