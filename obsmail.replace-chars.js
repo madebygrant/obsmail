@@ -1,3 +1,9 @@
+/**
+ * @preserve: Obscure Email - Character Replacement, v1.0
+ * @url: https://github.com/madebygrant/obsmail
+ * @author: Grant, https://madebygrant.com
+ */
+
 const obsMail = {
     _d: function(char) {
         let a = document.createElement("textarea");
