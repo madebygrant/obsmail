@@ -4,14 +4,6 @@
  * @author: Grant, https://madebygrant.com
  */
 
-const __ = (fn) => {
-    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading"){
-        fn();
-    } else {
-        document.addEventListener('DOMContentLoaded', fn);
-    }
-};
-
 const obsMail = {
     _d: function(char) {
         let a = document.createElement("textarea");
