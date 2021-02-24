@@ -1,8 +1,16 @@
 /**
- * @preserve: Obscure Email - Character Replacement, v1.0
+ * @preserve: Obscure Email - Character Replacement, v1.0.1
  * @url: https://github.com/madebygrant/obsmail
  * @author: Grant, https://madebygrant.com
  */
+
+const __ = (fn) => {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading"){
+        fn();
+    } else {
+        document.addEventListener('DOMContentLoaded', fn);
+    }
+};
 
 const obsMail = {
     _d: function(char) {
@@ -44,4 +52,4 @@ const obsMail = {
     }
 }
 
-obsMail.replaceChars();
+__(obsMail.replaceChars());
