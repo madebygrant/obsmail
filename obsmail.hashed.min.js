@@ -1,5 +1,5 @@
 /**
- * @preserve: Obscure Email - Hashed, v1.0.1
+ * @preserve: Obscure Email - Hashed, v1.1
  * @url: https://github.com/madebygrant/obsmail
  * @author: Grant, https://madebygrant.com
  */

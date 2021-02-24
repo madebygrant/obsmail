@@ -1,5 +1,5 @@
 /**
- * @preserve: Obscure Email - Character Replacement, v1.0.1
+ * @preserve: Obscure Email - Character Replacement, v1.1
  * @url: https://github.com/madebygrant/obsmail
  * @author: Grant, https://madebygrant.com
  */
