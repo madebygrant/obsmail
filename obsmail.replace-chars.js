@@ -52,4 +52,6 @@ const obsMail = {
     }
 }
 
-__(obsMail.replaceChars());
+document.addEventListener('DOMContentLoaded', function(){
+    obsMail.replaceChars();
+});

@@ -61,4 +61,6 @@ const obsMail = {
         }
     }
 }
-__(obsMail.hashed());
+document.addEventListener('DOMContentLoaded', function(){
+    obsMail.hashed();
+});
