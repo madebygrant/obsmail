@@ -27,7 +27,7 @@ const obsMail = {
 
             for (let i = 0; i < emailLinks.length; ++i) {
                 let emailA = emailLinks[i].getAttribute("data-link"),
-                    updated_email = this._d(emailA);
+                    updated_email = this._d(emailA),
                     label = emailLinks[i].querySelector("span");
 
                 if( label && label.innerHTML == '' ){
